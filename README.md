@@ -73,3 +73,47 @@ you can git your region model [from here](https://cloud.ibm.com/docs/speech-to-t
 
 ## Step.(6): Speech To Text File
 In the following lines of code I started by creating a text file named (STT.txt) followed by the function 'write' which writes the text content into the text file, and finally closing the file, and the text file will be found with the rest of the project files after running the code:
+
+```
+fo = open('STT.txt', 'w')
+fo.write(transcript)
+fo.close()
+```
+
+![image](https://user-images.githubusercontent.com/85820553/129075753-b6483a67-af6f-4427-b445-2932ac1a2a9b.png)
+
+
+
+## Step.(7): Text To Speeh (TTS)
+
+In the step we want to convert our text into an audio using the following code lines, I started by creating passing the text into gTTS function which will convert the text into the audio file and then save it under the name (TTS.mp3) and the mp3 file will be found with the rest of the project files after running the code:
+
+
+```
+output = gTTS(text=transcript, lang='en', slow=False)
+output.save("TTS.mp3")
+```
+
+![image](https://user-images.githubusercontent.com/85820553/129075753-b6483a67-af6f-4427-b445-2932ac1a2a9b.png)
+
+
+
+## Step.(8): Run The Code
+Now that everything is ready we will run the code using the following command where we use -t to specify how long we want to record (ex: 20 sec)
+Note: mke sure you are in the correct directory otherwise use (cd ./watson-streaming-stt) 
+
+```
+python transcribe.py -t 20
+```
+
+
+## SPEECH
+As i run the program i started speaking and the program started showing my speech in the terminal, and it showed a correct result as i was saying (hello everyone I'm speaking English only I cannot speak any other languages thank you )
+
+![image](https://user-images.githubusercontent.com/85820553/129100588-0e6cf521-5b5e-4f70-9d34-dfb796604442.png)
+
+
+
+
+
+

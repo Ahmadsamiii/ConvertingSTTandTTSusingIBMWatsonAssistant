@@ -1,6 +1,6 @@
 # Software and Internet of Things Track | Task-4
 
-## Converting Speech to Text using IBM Watson Assistant
+## Converting Speech to Text and Speech to Text using IBM Watson Assistant
 
 - Description:
 

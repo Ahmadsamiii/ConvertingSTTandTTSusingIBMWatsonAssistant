@@ -116,4 +116,23 @@ As i run the program i started speaking and the program started showing my speec
 
 
 
+https://user-images.githubusercontent.com/85820553/129101402-e658ca6f-70bc-4fac-a86e-ed42331809a6.mp4
+
+
+
+## MP3 FILE
+After running the program it converted the output text automatically into mp3 file as you can hear in this video:
+
+
+
+https://user-images.githubusercontent.com/85820553/129102272-b5e0d3fe-2541-439d-8c12-275f9db5e159.mp4
+
+
+
+
+## TEXT FILE
+After running the program it converted my final speech automatically into a text file 
+
+![image](https://user-images.githubusercontent.com/85820553/129101820-6467b135-57aa-4b8d-a224-46bd80eda7b5.png)
+
 
